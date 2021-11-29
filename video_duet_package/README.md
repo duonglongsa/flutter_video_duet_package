@@ -11,17 +11,19 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+TODO: record duet video with a given video, preview and save video to cache.
 
 ## Features
 
 TODO: List what your package can do. Maybe include images, gifs, or videos.
 
-## Getting started
+## dependencies:
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+flutter_ffmpeg: ^0.4.2
+camera: ^0.9.4+3
+video_player: ^2.2.7
+path_provider: ^2.0.6
+gallery_saver: ^2.3.2
 
 ## Usage
 
@@ -32,8 +34,3 @@ to `/example` folder.
 const like = 'sample';
 ```
 
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.

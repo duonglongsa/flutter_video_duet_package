@@ -11,11 +11,9 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: record duet video with a given video, preview and save video to cache.
-
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+record duet video with a given video, preview and save video to cache, gallery.
 
 ## dependencies:
 
@@ -25,12 +23,4 @@ video_player: ^2.2.7<br />
 path_provider: ^2.0.6<br />
 gallery_saver: ^2.3.2
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
-```dart
-const like = 'sample';
-```
 

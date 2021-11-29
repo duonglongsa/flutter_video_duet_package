@@ -10,21 +10,21 @@ import 'package:video_player/video_player.dart';
 
 import 'preview_screen.dart';
 
-class CameraApp extends StatefulWidget {
+class DuetScreen extends StatefulWidget {
   final VideoPlayerController duetVideoController;
   final VoidCallback onCancleRecording;
 
-  const CameraApp({
+  const DuetScreen({
     Key? key,
     required this.duetVideoController,
     required this.onCancleRecording,
   }) : super(key: key);
 
   @override
-  _CameraAppState createState() => _CameraAppState();
+  _DuetScreenState createState() => _DuetScreenState();
 }
 
-class _CameraAppState extends State<CameraApp> {
+class _DuetScreenState extends State<DuetScreen> {
   List<CameraDescription>? cameras;
   CameraController? cameraController;
 

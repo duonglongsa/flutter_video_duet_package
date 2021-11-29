@@ -19,10 +19,10 @@ TODO: List what your package can do. Maybe include images, gifs, or videos.
 
 ## dependencies:
 
-flutter_ffmpeg: ^0.4.2
-camera: ^0.9.4+3
-video_player: ^2.2.7
-path_provider: ^2.0.6
+flutter_ffmpeg: ^0.4.2<br />
+camera: ^0.9.4+3<br />
+video_player: ^2.2.7<br />
+path_provider: ^2.0.6<br />
 gallery_saver: ^2.3.2
 
 ## Usage
